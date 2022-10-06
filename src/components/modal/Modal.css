@@ -1,0 +1,79 @@
+.modal-block {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal-window{
+    padding: 25px;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: rgb(25 25 25);
+    opacity: 95%;
+    position: fixed;
+    overflow: hidden;
+}
+
+.modal-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-modal-bnt {
+    height: 25px;
+    width: 25px;
+}
+
+.modal-middle {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-form-box {
+    margin-top: 20px;
+    display: grid;
+}
+
+.modal-form-box label {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.modal-form-box input {
+    width: 300px;
+    font-size: 20px;
+}
+
+.modal-form-box textarea {
+    resize: vertical;
+}
+
+.modal-form {
+    display: table-caption;
+    justify-content: center;
+}
+.modal-bottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.modal-btn-add {
+    background-color: gray;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal-button-box {
+    display: flex;
+    justify-content: center;
+}

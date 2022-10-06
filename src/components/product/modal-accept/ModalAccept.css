@@ -1,0 +1,24 @@
+.modal-accept_block {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal-accept_box{
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: rgb(25 25 25);
+    opacity: 95%;
+    position: fixed;
+    overflow: hidden;
+    left: 40%;
+    top: 40%;
+}
+
+.modal-accept_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

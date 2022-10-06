@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://blademag.com/wp-content/uploads/268-HoleyMoley_hr.jpg",
+      "name": "Knife 1",
+      "count": 4,
+      "price": 20,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "200g",
+      "comments": [
+        "CommentModel",
+        "CommentModel"
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://i.ebayimg.com/images/g/czsAAOSw-uFeaVNB/s-l1600.jpg",
+      "name": "knife3",
+      "count": 1,
+      "price": 60,
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "weight": "600g",
+      "comments": [
+        "CommentModel",
+        "CommentModel"
+      ]
+    },
+    {
+      "name": "Knife hunter",
+      "weight": "200",
+      "price": "200",
+      "imageUrl": "https://images.prom.ua/3897148559_nozh-bestech-toucan.jpg",
+      "id": 4
+    },
+    {
+      "name": "m9",
+      "weight": "100",
+      "price": "1000",
+      "imageUrl": "https://img.freepik.com/premium-photo/modern-military-knife-plastic-sheath-it-edged-weapons-lie-military-olivecolored-backpack_227841-1189.jpg?w=2000",
+      "id": 5
+    },
+    {
+      "name": "test update",
+      "weight": "",
+      "price": "",
+      "imageUrl": "",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 3,
+      "productId": 1,
+      "description": "some text here",
+      "date": "14:00 22.08.2021"
+    }
+  ]
+}
